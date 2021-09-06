@@ -5,7 +5,7 @@ echo "==============================================="
 echo "-----------------------------------------------"
 echo "Project - Generate config file."
 echo "-----------------------------------------------"
-mv .env.example .env
+cp .env.example .env
 
 echo "-----------------------------------------------"
 echo "Project - Building steps and up all containers."
